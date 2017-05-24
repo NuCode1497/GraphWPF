@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GraphWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Background="#FF48CD7E">
     <Grid>
-        
+        <Button Height="80" Width="100">
+            <StackPanel>
+                <Ellipse Fill="Red" Width="25" Height="25" />
+                <Label Content="OK!" />
+            </StackPanel>
+        </Button>
     </Grid>
 </Window>
